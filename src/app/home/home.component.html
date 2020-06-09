@@ -1,0 +1,21 @@
+<ActionBar title="{N} Login Example"></ActionBar>
+<GridLayout backgroundColor="#CCCCCC">
+    <ScrollView>
+        <StackLayout margin="10" verticalAlignment="center">
+            <StackLayout class="form">
+                <StackLayout class="input-field">
+                  <TextField hint="Enter the city" class="input"  [(ngModel)]="city "></TextField>
+                </StackLayout>
+              
+              
+              
+                <Button text="Find" class="btn btn-primary" (tap)="getWeatherdata()"></Button>
+                <Label text={{name}}></Label>
+                <Label text={{temp}}></Label>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</GridLayout>
+
+
+
