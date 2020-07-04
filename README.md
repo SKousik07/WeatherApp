@@ -1,4 +1,4 @@
 # WeatherApp
 
 #Demo
-![Farmers Market Finder Demo](demo/demo.gif)
+![Project demo](demo/20200616_000354.gif)
